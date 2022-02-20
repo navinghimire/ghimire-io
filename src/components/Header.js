@@ -1,7 +1,8 @@
-import Nav from "./Nav"
-export default function Header() {
+import './Header.css'
+export default function Jumbotron() {
     return(
-        <div className="header container">
+        <div className="jumbotron container">
+
             <div className="nav-main">
                 <h1>Navin</h1>
                 <h2>Ghimire</h2>

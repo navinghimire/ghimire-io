@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
 import { AnimatePresence, motion } from "framer-motion";
 import MediaGallery from "./MediaGallery";
+import './Project.css'
+
 export default function Project(props) {
     const technologiesElem = props.project.technologies.map((tech,id) => <p key={id}>{tech}</p>)
     const gitHubUrl = 'https://github.com/navinghimire/'

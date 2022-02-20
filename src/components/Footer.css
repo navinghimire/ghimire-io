@@ -1,0 +1,14 @@
+footer {
+    background-color: black;
+    color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  footer a {
+    padding-top: .5em;
+    text-decoration: none;
+    color: white;
+  }

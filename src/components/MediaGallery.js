@@ -1,10 +1,9 @@
 import { useState } from "react"
 import { motion } from "framer-motion";
-
+import './MediaGallery.css'
 const MediaGallery = ({media}) => {
 
     const [currentImageIndx, setCurrentImageIndx] = useState()
-    const [view, setView] = useState('')
     
 
     const imageList = media.map((image,id) => <motion.img

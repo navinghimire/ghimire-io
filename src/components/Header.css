@@ -1,0 +1,32 @@
+
+.jumbotron {
+    display: flex;
+    min-height: 50vh;
+    font-size: 1rem;
+    background-color: #AF5D36;
+}
+.nav-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-main > h1 {
+    font-size: 5em;
+}
+.nav-main >h2{
+    font-size: 2.5em;
+}
+.nav-main >h3{
+    font-size: 2em;
+    color: #DC9C9C;
+    padding-top: 1em;
+}
+.nav-main >h4{
+    padding-top: 1rem;
+    font-size: 2em;
+}
+.nav-main > p{
+    padding: 2em 0em;
+}
+

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilter} from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-
+import './Projects.css'
 export default function Projects() {
     
     const [projects, setProjects ] = useState([])
